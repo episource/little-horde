@@ -50,3 +50,5 @@ if [[ "$firstRun" == true ]]; then
     
     echo "... done!"
 fi 
+
+exec /usr/sbin/apache2ctl -D FOREGROUND
